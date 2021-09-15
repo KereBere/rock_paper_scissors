@@ -9,23 +9,22 @@ body{
 .container{
     max-width: 1000px;
     background-color: rgb(235, 134, 11);
-
+    height: 50vw;
 }
 
 .game-display{
     display: flex;
+    justify-content: center;
 }
 
 .display{
-    width: 400px;
-    height: 70vh;
     text-align: center;
+    height: 250px;
+    margin-bottom: 65px;
 }
 
-
 img{
-    width: 65%;
-    height: auto;
+    width: 150px;
 }
 figcaption{
     font-size: 2rem;
@@ -33,8 +32,19 @@ figcaption{
 .options{
     display: flex;
     justify-content: space-around;
+    position: inherit;
 }
 button{
     font-size: xx-large ;
     margin-bottom: 15px;
+}
+#score{
+    display: flex;
+}
+#score-1{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 0px 10px;
 }

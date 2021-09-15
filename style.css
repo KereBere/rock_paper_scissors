@@ -1,0 +1,40 @@
+html{
+    background-color: rgb(31, 33, 43);
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(235, 134, 11);
+
+}
+
+.game-display{
+    display: flex;
+}
+
+.display{
+    width: 400px;
+    height: 70vh;
+    text-align: center;
+}
+
+
+img{
+    width: 65%;
+    height: auto;
+}
+figcaption{
+    font-size: 2rem;
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    font-size: xx-large ;
+    margin-bottom: 15px;
+}
